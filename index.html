@@ -55,6 +55,20 @@
 .intro .intro-content small{letter-spacing:.11em}
 }
 @media(prefers-reduced-motion:reduce){.intro .space,.intro .orbit{animation:none!important}}
+</style><style id="intro-visual-fix">
+/* Hard override of original space scene: photographic composition only */
+#intro{background:#07131b!important}
+#intro .space{position:absolute!important;inset:0!important;background-image:linear-gradient(180deg,#07131b20 0%,#07131b00 34%,#07131b5c 65%,#07131bdf 100%),url("IMG_0180.jpeg")!important;background-position:center center!important;background-size:cover!important;background-repeat:no-repeat!important;animation:none!important;transform:none!important}
+#intro .space:before{display:none!important}
+#intro .planet,#intro .orbit{display:none!important}
+#intro .intro-content{position:absolute!important;left:0;right:0;bottom:15%;top:auto;transform:none!important;padding:20px 6%!important;background:linear-gradient(transparent,#08131a88);text-align:center}
+#intro .intro-content .symbol{display:none!important}
+#intro .intro-content h1{font-size:clamp(3.6rem,13vw,6rem)!important;line-height:1!important;margin:0 0 12px!important;color:#f7d59a!important;background:none!important;-webkit-text-fill-color:#f7d59a!important;text-shadow:0 4px 20px #000c}
+#intro .intro-content p{font-size:.72rem!important;letter-spacing:.25em!important;margin:10px 0;color:#fff1d6!important}
+#intro .intro-content small{font-size:.65rem!important;margin-top:14px!important;color:#f8d7a2!important}
+#intro .enter{bottom:calc(3% + env(safe-area-inset-bottom))!important}
+#intro .skip{font-size:.7rem!important;right:18px!important}
+@media(max-width:760px){#intro .space{background-image:linear-gradient(180deg,#07131b00 0%,#07131b00 35%,#07131b5c 62%,#07131be8 100%),url("IMG_0180.jpeg")!important;background-position:center top!important;background-size:100% auto!important;background-color:#07131b!important}#intro .intro-content{bottom:12%!important}}
 </style></head>
 <body><div class="intro" id="intro" role="dialog" aria-label="Honeylark introduction"><div class="space"></div><div class="orbit"></div><div class="planet"></div><div class="intro-content"><div class="symbol" aria-hidden="true">✧</div><h1>Honeylark</h1><p>People · Ideas · Impact</p><small>A brighter Aotearoa, together</small></div><button class="skip" id="skip">Skip intro ↗</button><button class="enter" id="enter">ENTER<span>⌄</span></button></div>
 <header class="hero" id="home"><nav class="nav"><a class="brand" href="#home">Honeylark</a><div class="links"><a href="#about">About</a><a href="#work">What we do</a><a href="#founding-five">Founding Five</a></div><button class="outline" id="replay">↻ Intro</button></nav><div class="hero-inner"><div class="eyebrow">Strategy · Communications · Funding · Community</div><h1>Ideas <em>take flight</em><br>when people<br>feel seen.</h1><div class="gold-rule"></div><p>Strategy, communications and funding support for a fairer, brighter Aotearoa.</p><a href="#work" class="cta">Explore our work <span>→</span></a><div class="preview">CONCEPT PREVIEW · PRE-LAUNCH · NOT YET ACCEPTING ENGAGEMENTS</div></div></header>
