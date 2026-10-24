@@ -69,6 +69,17 @@
 #intro .enter{bottom:calc(3% + env(safe-area-inset-bottom))!important}
 #intro .skip{font-size:.7rem!important;right:18px!important}
 @media(max-width:760px){#intro .space{background-image:linear-gradient(180deg,#07131b00 0%,#07131b00 35%,#07131b5c 62%,#07131be8 100%),url("IMG_0180.jpeg")!important;background-position:center top!important;background-size:100% auto!important;background-color:#07131b!important}#intro .intro-content{bottom:12%!important}}
+</style><style id="intro-crop-repair">
+/* Keep the photographic scene visible without clipping baked-in mockup lettering */
+#intro .space{background-image:linear-gradient(180deg,#07131b38 0%,#07131b00 35%,#07131b40 65%,#07131bdc 100%),url("IMG_0180.jpeg")!important;background-position:center center!important;background-size:cover!important}
+#intro .intro-content{bottom:9%!important;background:linear-gradient(transparent,#07131b99)!important}
+#intro .intro-content h1{font-size:clamp(3rem,11vw,5rem)!important}
+@media(max-width:760px){
+#intro .space{background-image:linear-gradient(180deg,#07131b10 0%,#07131b22 35%,#07131bdc 90%),url("IMG_0180.jpeg")!important;background-size:100% auto!important;background-position:center 18%!important;background-repeat:no-repeat!important;background-color:#07131b!important}
+#intro .intro-content{bottom:13%!important}
+#intro .intro-content h1{font-size:clamp(2.9rem,10vw,4.4rem)!important}
+#intro .skip{top:calc(18px + env(safe-area-inset-top))!important}
+}
 </style></head>
 <body><div class="intro" id="intro" role="dialog" aria-label="Honeylark introduction"><div class="space"></div><div class="orbit"></div><div class="planet"></div><div class="intro-content"><div class="symbol" aria-hidden="true">✧</div><h1>Honeylark</h1><p>People · Ideas · Impact</p><small>A brighter Aotearoa, together</small></div><button class="skip" id="skip">Skip intro ↗</button><button class="enter" id="enter">ENTER<span>⌄</span></button></div>
 <header class="hero" id="home"><nav class="nav"><a class="brand" href="#home">Honeylark</a><div class="links"><a href="#about">About</a><a href="#work">What we do</a><a href="#founding-five">Founding Five</a></div><button class="outline" id="replay">↻ Intro</button></nav><div class="hero-inner"><div class="eyebrow">Strategy · Communications · Funding · Community</div><h1>Ideas <em>take flight</em><br>when people<br>feel seen.</h1><div class="gold-rule"></div><p>Strategy, communications and funding support for a fairer, brighter Aotearoa.</p><a href="#work" class="cta">Explore our work <span>→</span></a><div class="preview">CONCEPT PREVIEW · PRE-LAUNCH · NOT YET ACCEPTING ENGAGEMENTS</div></div></header>
